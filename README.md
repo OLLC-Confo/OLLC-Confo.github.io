@@ -1,13 +1,13 @@
 ### Main Web App
 
 ```
-https://orlemconfo.site
+https://orlem-confo.github.io
 ```
 
 ### Status Web App
 
 ```
-https://orlemconfo.site/status
+https://orlemconfo.github.io/status
 ```
 
 <hr>
