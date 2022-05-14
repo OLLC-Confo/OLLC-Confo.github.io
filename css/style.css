@@ -43,8 +43,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: "coral";
-  color: #fff;
+  background: rgb(8, 255, 107);
+  color: rgb(8, 255, 107);
   width: 44px;
   height: 44px;
   text-align: center;
@@ -76,7 +76,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(149, 255, 125);
 }
 
 #preloader:before {
@@ -300,8 +300,8 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
-  background: "coral";
+  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1125,7 +1125,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 .active {
-  background-color: #ccc;
+  background-color: rgb(255, 241, 241);
 }
 
 * {
@@ -1136,7 +1136,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* scrollbar width */
 .custom-scrollbar-css::-webkit-scrollbar {
-  width: 16px;
+  width: 10px;
+  height: 40px;
 }
 
 /* scrollbar track */
