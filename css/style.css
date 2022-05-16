@@ -9,14 +9,14 @@ body {
 }
 
 a {
-  color: #18d26e;
+  color: #1894d2;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #1894d2;
   outline: none;
   text-decoration: none;
 }
@@ -43,8 +43,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgb(8, 255, 107);
-  color: rgb(8, 255, 107);
+  background: #1894d2;
+  color: #1894d2;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -63,7 +63,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background-color: #93dab6;
+  background-color: #93adda;
 }
 
 /* Prelaoder */
@@ -76,7 +76,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: rgb(149, 255, 125);
+  background: #1894d2;
 }
 
 #preloader:before {
@@ -300,8 +300,8 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  color: rgb(255, 255, 255);
-  background: rgb(255, 255, 255);
+  color: #1894d2;
+  background: rgb(0, 0, 0);
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -410,7 +410,7 @@ h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: #333;
+  color: rgb(119, 119, 119);
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -495,7 +495,7 @@ h6 {
 }
 
 #mobile-nav ul li.menu-active a {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #mobile-nav ul .menu-has-children i {
@@ -516,7 +516,7 @@ h6 {
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #mobile-body-overly {
@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 40px;
   height: 3px;
-  background: #18d26e;
+  background: #1894d2;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -637,7 +637,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #worksheets .worksheets-info a:hover {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #worksheets .worksheets-address,
@@ -647,8 +647,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #worksheets .form #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: #1894d2;
+  border: 1px solid #1894d2;
   display: none;
   text-align: center;
   padding: 15px;
@@ -689,7 +689,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #worksheets .form button[type="submit"] {
-  background: #18d26e;
+  background: #1894d2;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -698,7 +698,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #worksheets .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #1894d2;
 }
 
 /* qna Section
@@ -718,7 +718,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #qna .qna-info address,
@@ -740,7 +740,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #qna .qna-info a:hover {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #qna .qna-address,
@@ -750,8 +750,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #qna .form #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: #1894d2;
+  border: 1px solid #1894d2;
   display: none;
   text-align: center;
   padding: 15px;
@@ -792,7 +792,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #qna .form button[type="submit"] {
-  background: #18d26e;
+  background: #1894d2;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -801,7 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #qna .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #1894d2;
 }
 
 /* Contact Section
@@ -821,7 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #contact .contact-info address,
@@ -843,7 +843,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #contact .contact-address,
@@ -853,8 +853,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: #1894d2;
+  border: 1px solid #1894d2;
   display: none;
   text-align: center;
   padding: 15px;
@@ -895,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #18d26e;
+  background: #1894d2;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -904,7 +904,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #1894d2;
 }
 
 /*--------------------------------------------------------------
@@ -935,7 +935,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #18d26e;
+  border-left: 4px solid #1894d2;
 }
 
 #footer .footer-top .footer-info p {
@@ -962,7 +962,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #18d26e;
+  background: #1894d2;
   color: #fff;
 }
 
@@ -990,7 +990,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top h4::after {
-  background: #18d26e;
+  background: #1894d2;
   width: 60px;
 }
 
@@ -1023,7 +1023,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #18d26e;
+  color: #1894d2;
 }
 
 #footer .footer-top .footer-contact {
@@ -1056,7 +1056,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #13a456;
+  background: #1894d2;
 }
 
 #footer .copyright {
@@ -1142,7 +1142,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* scrollbar track */
 .custom-scrollbar-css::-webkit-scrollbar-track {
-  background: rgb(20, 20, 20);
+  background: rgb(22, 74, 123);
 }
 
 /* scrollbar handle */
@@ -1163,5 +1163,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .btn-outline-dark:hover {
   color: white;
-  background-color: #181818;
+  background-color: #b5b5b5;
 }
