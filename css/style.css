@@ -288,6 +288,8 @@ h6 {
 .btn-get-started:hover {
   background: #fff;
   color: "coral";
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .btn-get-started {
@@ -410,10 +412,20 @@ h6 {
 
 .nav-menu ul li a {
   padding: 10px;
-  color: rgb(119, 119, 119);
+  color: rgb(55, 55, 55);
   transition: 0.3s;
   display: block;
   font-size: 13px;
+  text-transform: none;
+}
+
+.nav-menu ul li a:hover{
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  font-weight: bolder;
   text-transform: none;
 }
 
