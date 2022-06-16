@@ -285,13 +285,6 @@ h6 {
   cursor: pointer;
 }
 
-.btn-get-started:hover {
-  background: #fff;
-  color: "coral";
-  font-weight: bold;
-  transition: 0.5s;
-}
-
 .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -305,6 +298,15 @@ h6 {
   color: #1894d2;
   background: rgb(0, 0, 0);
 }
+
+
+.btn-get-started:hover {
+  background: #fff;
+  color: "coral";
+  font-weight: 800;
+  transition: 0.5s;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
