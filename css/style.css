@@ -295,15 +295,38 @@ h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
+  font-weight: 800;
   color: #1894d2;
   background: rgb(0, 0, 0);
+}
+
+.btn-get-started-light {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  font-weight: 800;
+  color: #1894d2;
+  background: rgb(255, 255, 255);
 }
 
 
 .btn-get-started:hover {
   background: #fff;
   color: "coral";
-  font-weight: 800;
+  transition: 0.5s;
+}
+
+.btn-get-started-light:hover {
+  background: #000000;
+  color: white;
+  color: "coral";
+  border: 1px solid white;
   transition: 0.5s;
 }
 
